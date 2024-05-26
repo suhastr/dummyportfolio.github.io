@@ -78,3 +78,91 @@ footer {
 .project p {
     margin-bottom: 0;
 }
+
+/* New styles for the experience section */
+#experience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience-item {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h4 {
+    margin-top: 0;
+}
+
+.experience-item p {
+    margin-bottom: 0;
+}
+
+/* New styles for the education section */
+#education {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education-item {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h4 {
+    margin-top: 0;
+}
+
+.education-item p {
+    margin-bottom: 0;
+}
+
+/* New styles for the publications section */
+#publications {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.publication-item {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.publication-item h4 {
+    margin-top: 0;
+}
+
+.publication-item p {
+    margin-bottom: 0;
+}
+
+/* New styles for the contact section */
+#contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-item {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item h4 {
+    margin-top: 0;
+}
+
+.contact-item p {
+    margin-bottom: 0;
+}
