@@ -2,33 +2,44 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f0f0f0;
 }
 
 header {
-    background-color: #f8f9fa;
-    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin: 10px 0;
 }
 
 nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #007bff;
+    color: white;
+    font-weight: bold;
 }
 
 main {
     padding: 20px;
 }
 
-#home {
-    text-align: center;
+section {
+    margin-bottom: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
 }
 
-#home img {
+#home img, #profile-image {
     width: 210px;
     height: 210px;
     object-fit: cover;
@@ -36,10 +47,34 @@ main {
 }
 
 footer {
-    background-color: #f8f9fa;
+    background-color: #4CAF50;
+    color: white;
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* New styles for the projects section */
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    flex: 1 1 calc(33.333% - 40px); /* Three projects per row */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h4 {
+    margin-top: 0;
+}
+
+.project p {
+    margin-bottom: 0;
 }
