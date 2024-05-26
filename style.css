@@ -31,6 +31,7 @@ main {
 #home img {
     width: 210px;
     height: 210px;
+    object-fit: cover;
     border-radius: 50%;
 }
 
